@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css" />
+    <title>Web app S3</title>
+
+</head>
+
+<body>
+    <div class="grid-container">
+        <header class="header">
+            <div class="brand">
+                <button onclick="openMenu()">
+              &#9776;
+             </button>
+                <a href="index.html">Web App S3</a>
+            </div>
+            <div class="header-link">
+                <a href="cart.html">Cart</a>
+                <a href="signin">Sign In</a>
+            </div>
+        </header>
+
+        <aside class="sidebar">
+            <h3>Product Category:</h3>
+            <button class="sidebar-close-button" onclick="closeMenu()">x</button>
+            <ul>
+                <li>
+                    <a href="index.html">Shirts</a>
+                </li>
+                <li>
+                    <a href="index.html">Patns</a>
+                </li>
+            </ul>
+
+        </aside>
+
+        <main class="main">
+            <div class="content">
+                <ul class="products">
+                    <li>
+                        <div class="product">
+                            <img class="product-image" src="images/d1.jpg" alt="product" />
+                            <div class="product-name"> <a href="product.html">saluar kamiz</a></div>
+                            <div class="product-brand">Max Brabd</div>
+                            <div class="product-price">$60</div>
+                            <div class="product-rating">4.5 Stars (10 reviews)</div>
+
+
+                        </div>
+                    </li>
+                    <li>
+                        <div class="product">
+                            <img class="product-image" src="images/d1.jpg" alt="product" />
+                            <div class="product-name"> <a href="product.html">saluar kamiz</a></div>
+                            <div class="product-brand">Max Brabd</div>
+                            <div class="product-price">$60</div>
+                            <div class="product-rating">4.5 Stars (10 reviews)</div>
+
+
+                        </div>
+                    </li>
+                    <li>
+                        <div class="product">
+                            <img class="product-image" src="images/d1.jpg" alt="product" />
+                            <div class="product-name"> <a href="product.html">saluar kamiz</a></div>
+                            <div class="product-brand">Max Brabd</div>
+                            <div class="product-price">$60</div>
+                            <div class="product-rating">4.5 Stars (10 reviews)</div>
+
+
+                        </div>
+                    </li>
+                    <li>
+                        <div class="product">
+                            <img class="product-image" src="images/d1.jpg" alt="product" />
+                            <div class="product-name"> <a href="product.html">saluar kamiz</a></div>
+                            <div class="product-brand">Max Brabd</div>
+                            <div class="product-price">$60</div>
+                            <div class="product-rating">4.5 Stars (10 reviews)</div>
+
+
+                        </div>
+                    </li>
+                </ul>
+
+            </div>
+
+        </main>
+        <footer class="footer">
+            All right reserved by Yub Coorporation-2020.
+        </footer>
+    </div>
+    <script>
+        function openMenu() {
+            document.querySelector(".sidebar").classList.add("open");
+        }
+
+        function closeMenu() {
+            document.querySelector(".sidebar").classList.remove("open")
+        }
+    </script>
+</body>
+
+</html>
